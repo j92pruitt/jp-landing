@@ -3,12 +3,17 @@
 }
 header {
     padding: 20px;
-    background: #666a86 ;
+    background: #666a86;
 }
 
 nav{
     display: flex;
     justify-content: flex-end;
+}
+
+body{
+    background-color: #f5f6f4;
+    margin: 0;
 }
 
 nav a{
@@ -23,15 +28,29 @@ main h1{
 }
 
 main img{
-    max-width: 30vh;
-    max-height: 30vh;
+    max-width: 35vh;
+    max-height: 35vh;
     display: block;
     margin: auto;
     border: 3px solid #525252;
 }
 
-body{
-    background-color: #f5f6f4;
+figcaption{
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+    color: #f5f6f4;
+}
+
+.content{
+    padding: 20px;
+    font-size: 20px;
+}
+
+footer{
+    background: #666a86;
 }
 
 .gray{
