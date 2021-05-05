@@ -17,6 +17,10 @@ nav a{
     color: #f5f6f4;
 }
 
+main h1{
+    text-align: center;
+}
+
 header, footer{
     background-color: #666a86;
 }
