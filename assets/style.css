@@ -1,13 +1,13 @@
-nav ul{
-    list-style-type: none;
-    display: block;
-    margin-left: 70%;
+nav{
+    display: flex;
+    justify-content: flex-end;
 }
 
-nav ul li{
-    display: inline;
+nav a{
     font-size: 24px;
-    margin-left: 10%;
+    text-decoration: none;
+    padding: 14px 20px;
+    color: #f5f6f4;
 }
 
 header, footer{
